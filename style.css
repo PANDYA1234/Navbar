@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.navcontainer{
+    background-color: rgb(34, 30, 30);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navcontainer ul{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.navcontainer ul a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    padding: 15px;
+    transition: 1s;
+
+}
+
+.navcontainer ul a li{
+    list-style: none;
+}
+
+.navform{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.navform #search{
+  width: 230px;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.navform #submit{
+    padding: 7px 20px;
+    font-size: 20px;
+    background-color: rgb(88, 88, 252);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navcontainer ul a:hover{
+background-color: white;
+color: black;
+}
+.navform #submit:hover{
+    background-color: rgb(104, 4, 198);
+    opacity: 0.7;
+
+}
